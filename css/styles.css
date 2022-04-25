@@ -1,3 +1,71 @@
+/* Standar plan price */
+.text-center h2 {
+  color: #363d47;
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+  line-height: 1.2;
+}
+.lead {
+  color: #69797a;
+  font-size: 1.1rem;
+  font-weight: 400;
+}
+.card-standard {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  box-shadow: -2px -1px 23px 0px rgba(176, 156, 156, 0.51);
+  -webkit-box-shadow: -2px -1px 23px 0px rgba(176, 156, 156, 0.51);
+  -moz-box-shadow: -2px -1px 23px 0px rgba(176, 156, 156, 0.51);
+  border-radius: 0.35rem;
+}
+.card-customized {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-clip: border-box;
+  background-color: #353d47;
+  border-radius: 0.35rem;
+}
+.pricing-price {
+  padding-left: 30px;
+  font-size: 0.9rem;
+  color: #363d47;
+  margin-bottom: 1rem;
+}
+li span i {
+  color: #00ac69;
+}
+.card-footer {
+  padding: 1rem 1.35rem;
+  background-color: rgba(33, 40, 50, 0.03);
+  border-top: 1px solid rgba(33, 40, 50, 0.125);
+}
+.card-footer-standard a {
+  text-decoration: none;
+}
+.card-footer-standard a:hover {
+  text-decoration: underline;
+}
+
+.card-footer-customized a {
+  text-decoration: none;
+  background-color: #212832;
+}
+.card-footer-customized a:hover {
+  text-decoration: underline;
+}
+.card-text {
+  color: #69707a;
+}
+/* Footer */
 footer {
   padding-top: 4rem;
   background-color: #212832;
