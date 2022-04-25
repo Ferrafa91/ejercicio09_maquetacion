@@ -1,9 +1,78 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
+.header {
+  background-image: linear-gradient(
+    135deg,
+    #0061f2 0%,
+    rgba(105, 0, 199, 0.8) 100%
+  ) !important;
 
+  min-height: 50vh !important;
+}
 
+.hero__desc {
+  color: rgb(199, 199, 199);
+}
 
+.card__price::before {
+  content: "$";
+  vertical-align: 33%;
+  padding-right: 1rem;
+  font-size: 1.4rem !important;
+}
 
+.card__price::after {
+  content: "/mo";
+  vertical-align: 0%;
+  padding-left: 0.4rem;
+  font-size: 1rem !important;
+}
 
+.card__desc {
+  text-align: center;
+}
+
+.link:hover {
+  text-decoration: underline !important;
+}
+
+.dropdown-menu {
+  left: -100% !important;
+  top: calc(100% + 1rem) !important;
+}
+
+.dropdown-menu.drop-pages {
+  left: -700% !important;
+  /* height: 25rem !important; */
+  /* min-width: 40rem !important; */
+}
+
+.dropdown-menu.drop-landings {
+  left: -600% !important;
+}
+
+.landings__bg {
+  height: 100%;
+
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 200, 0.6),
+      rgba(0, 0, 200, 0.6)
+    ),
+    url("https://sb-ui-kit-pro.startbootstrap.com/assets/img/backgrounds/bg-dropdown-xl.jpg");
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.landings__bg--text {
+  text-align: center;
+}
 
 /*styles juanarede*/
 hr {
@@ -11,20 +80,19 @@ hr {
   color: gray;
   background-color: currentColor;
   border: 0;
-  opacity: 0.50;
+  opacity: 0.5;
 }
-.margin-section{
+.margin-section {
   margin-top: 7rem;
 }
 /*text*/
-.fw-normal{
+.fw-normal {
   font-size: 1.6rem;
 }
 .lead {
   font-size: 1.6rem;
   color: gray;
-  font-weight:200;
-  
+  font-weight: 200;
 }
 
 /*button*/
@@ -41,24 +109,26 @@ hr {
   padding: 1.2rem 1.6rem;
   font-size: 0.875rem;
   border-radius: 0.35rem;
-  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+    border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
 .btn-withe {
   color: #000;
   background-color: #fff;
   border-color: #fff;
 }
-.marg{
+.marg {
   margin-top: 0.5rem;
   margin-bottom: 0.5rem;
 }
-.mr{
+.mr {
   margin-right: 1rem;
 }
 .shadow {
-  box-shadow: 0 0.15rem 1.75rem 0 rgba(33, 40, 50, 0.15) ;
+  box-shadow: 0 0.15rem 1.75rem 0 rgba(33, 40, 50, 0.15);
 }
 
+<<<<<<< HEAD
 /*cards*/
 .card {
   position: relative;
@@ -145,6 +215,8 @@ p{
 
 /*footer*/
 
+=======
+>>>>>>> 28041be1bce266f4c793277ee54d097a95ae8a64
 footer {
   padding-top: 4rem;
   background-color: #212832;
