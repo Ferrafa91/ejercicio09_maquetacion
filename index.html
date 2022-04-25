@@ -23,25 +23,701 @@
       referrerpolicy="no-referrer"
     />
     <link rel="stylesheet" href="./css/styles.css" />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body>
-    <header>
-      <nav></nav>
+    <header class="header border-bottom">
+      <div
+        class="container py-3 d-flex justify-content-between align-items-center"
+      >
+        <h1 class="header__title fs-4 lh-1">SB UI Kit Pro</h1>
+
+        <nav class="navbar navbar-expand-lg navbar-light bg-white">
+          <div class="container-fluid">
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarNavAltMarkup"
+              aria-controls="navbarNavAltMarkup"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+              <div class="navbar-nav">
+                <a class="nav-link" aria-current="page" href="#">Home</a>
+
+                <div class="landings dropdown mx-3">
+                  <a
+                    class="btn btn-secondary nav-link dropdown-toggle bg-white text-secondary border-0"
+                    href="#"
+                    role="button"
+                    id="dropdownMenuLandings"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    Landings
+                  </a>
+
+                  <div
+                    class="dropdown-menu dropdown-menu-end p-0 drop-landings shadow"
+                    aria-labelledby="dropdownMenuLandings"
+                  >
+                    <div class="container-fluid p-0">
+                      <div class="row g-0 p-0">
+                        <div class="col-5 p-0 m-0">
+                          <div
+                            class="landings__bg d-flex flex-column justify-content-center align-items-center"
+                          >
+                            <p class="landings__bg--text text-light">
+                              Multipurpose landing pages for a variety of
+                              projects.
+                            </p>
+
+                            <button type="button" class="btn btn-primary">
+                              View All
+                            </button>
+                          </div>
+                        </div>
+                        <div class="col-7">
+                          <div class="row">
+                            <div class="col-6">
+                              <div
+                                class="pages__data d-flex flex-column fs-6 ps-3 fw-light mb-3"
+                              >
+                                <p
+                                  class="pages__title text-primary text-uppercase fw-bold mb-0"
+                                >
+                                  Applications
+                                </p>
+                                <a
+                                  class="pages__link mb-0 text-decoration-none text-dark"
+                                >
+                                  Mobile App
+                                </a>
+
+                                <a
+                                  class="pages__link mb-0 text-decoration-none text-dark"
+                                >
+                                  Desktop App
+                                </a>
+                              </div>
+
+                              <div
+                                class="pages__data d-flex flex-column fs-6 ps-3 fw-light mb-3"
+                              >
+                                <p
+                                  class="pages__title text-primary text-uppercase fw-bold mb-0"
+                                >
+                                  Business
+                                </p>
+                                <a
+                                  class="pages__link mb-0 text-decoration-none text-dark"
+                                >
+                                  Multipurpose
+                                </a>
+
+                                <a
+                                  class="pages__link mb-0 text-decoration-none text-dark"
+                                >
+                                  Agency
+                                </a>
+
+                                <a
+                                  class="pages__link mb-0 text-decoration-none text-dark"
+                                >
+                                  Press
+                                </a>
+
+                                <a
+                                  class="pages__link mb-0 text-decoration-none text-dark"
+                                >
+                                  Directory
+                                </a>
+
+                                <a
+                                  class="pages__link mb-0 text-decoration-none text-dark"
+                                >
+                                  Rental
+                                </a>
+
+                                <a
+                                  class="pages__link mb-0 text-decoration-none text-dark"
+                                >
+                                  Real Estate
+                                </a>
+
+                                <a
+                                  class="pages__link mb-0 text-decoration-none text-dark"
+                                >
+                                  Classifieds
+                                </a>
+                              </div>
+
+                              <div
+                                class="pages__data d-flex flex-column fs-6 ps-3 fw-light mb-3"
+                              >
+                                <p
+                                  class="pages__title text-primary text-uppercase fw-bold mb-0"
+                                >
+                                  Lead Generation
+                                </p>
+                                <a
+                                  class="pages__link mb-0 text-decoration-none text-dark"
+                                >
+                                  Lead Capture
+                                </a>
+                              </div>
+                            </div>
+                            <div class="col-6">
+                              <div
+                                class="pages__data d-flex flex-column fs-6 ps-3 fw-light mb-3"
+                              >
+                                <p
+                                  class="pages__title text-primary text-uppercase fw-bold mb-0"
+                                >
+                                  Personal
+                                </p>
+                                <a
+                                  class="pages__link mb-0 text-decoration-none text-dark"
+                                >
+                                  Resume
+                                </a>
+
+                                <a
+                                  class="pages__link mb-0 text-decoration-none text-dark"
+                                >
+                                  Portfolio
+                                </a>
+                              </div>
+
+                              <div
+                                class="pages__data d-flex flex-column fs-6 ps-3 fw-light mb-3"
+                              >
+                                <p
+                                  class="pages__title text-primary text-uppercase fw-bold mb-0"
+                                >
+                                  Header Styles
+                                </p>
+                                <a
+                                  class="pages__link mb-0 text-decoration-none text-dark"
+                                >
+                                  Basic
+                                </a>
+
+                                <a
+                                  class="pages__link mb-0 text-decoration-none text-dark"
+                                >
+                                  Basic (Signup)
+                                </a>
+
+                                <a
+                                  class="pages__link mb-0 text-decoration-none text-dark"
+                                >
+                                  Graphic
+                                </a>
+
+                                <a
+                                  class="pages__link mb-0 text-decoration-none text-dark"
+                                >
+                                  Graphic (Signup)
+                                </a>
+
+                                <a
+                                  class="pages__link mb-0 text-decoration-none text-dark"
+                                >
+                                  Video Header
+                                  <span class="badge badge-pill">New!</span>
+                                </a>
+
+                                <a
+                                  class="pages__link mb-0 text-decoration-none text-dark"
+                                >
+                                  Inner Page
+                                </a>
+
+                                <a
+                                  class="pages__link mb-0 text-decoration-none text-dark"
+                                >
+                                  Nav Only
+                                </a>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="pages dropdown mx-3">
+                  <a
+                    class="btn btn-secondary nav-link dropdown-toggle bg-white text-secondary border-0"
+                    href="#"
+                    role="button"
+                    id="dropdownMenuPages"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    Pages
+                  </a>
+
+                  <div
+                    class="dropdown-menu dropdown-menu-end drop-pages shadow"
+                    aria-labelledby="dropdownMenuPages"
+                  >
+                    <div class="container-fluid p-0">
+                      <div class="row g-0 p-0">
+                        <div class="col-4 d-flex flex-column">
+                          <div
+                            class="pages__data d-flex flex-column fs-6 ps-3 fw-light mb-2"
+                          >
+                            <p
+                              class="pages__title text-primary text-uppercase fw-bold mb-0"
+                            >
+                              Company
+                            </p>
+                            <a
+                              class="pages__link text-decoration-none mb-0 p-0 text-dark"
+                              href="#"
+                            >
+                              Basic Page
+                            </a>
+
+                            <a
+                              class="pages__link mb-0 text-decoration-none text-dark"
+                            >
+                              About
+                            </a>
+
+                            <a
+                              class="pages__link mb-0 text-decoration-none text-dark"
+                            >
+                              Pricing
+                            </a>
+
+                            <a
+                              class="pages__link mb-0 text-decoration-none text-dark"
+                            >
+                              Contact
+                            </a>
+
+                            <a
+                              class="pages__link mb-0 text-decoration-none text-dark"
+                            >
+                              Team
+                            </a>
+
+                            <a
+                              class="pages__link mb-0 text-decoration-none text-dark"
+                            >
+                              Terms
+                            </a>
+                          </div>
+
+                          <div
+                            class="pages__data d-flex flex-column fs-6 ps-3 fw-light"
+                          >
+                            <p
+                              class="pages__title text-primary text-uppercase fw-bold mb-0"
+                            >
+                              Support
+                            </p>
+                            <a
+                              class="pages__link mb-0 text-decoration-none text-dark"
+                            >
+                              Help Center
+                            </a>
+
+                            <a
+                              class="pages__link mb-0 text-decoration-none text-dark"
+                            >
+                              Knowledgebase
+                            </a>
+
+                            <a
+                              class="pages__link mb-0 text-decoration-none text-dark"
+                            >
+                              Message Center
+                            </a>
+
+                            <a
+                              class="pages__link mb-0 text-decoration-none text-dark"
+                            >
+                              Support Ticket
+                            </a>
+                          </div>
+                        </div>
+                        <div class="col-4 d-flex flex-column">
+                          <div
+                            class="pages__data d-flex flex-column fs-6 ps-3 fw-light mb-3"
+                          >
+                            <p
+                              class="pages__title text-primary text-uppercase fw-bold mb-0"
+                            >
+                              Careers
+                            </p>
+                            <a
+                              class="pages__link mb-0 text-decoration-none text-dark"
+                            >
+                              Careers List
+                            </a>
+
+                            <a
+                              class="pages__link mb-0 text-decoration-none text-dark"
+                            >
+                              Position Details
+                            </a>
+                          </div>
+
+                          <div
+                            class="pages__data d-flex flex-column fs-6 ps-3 fw-light mb-3"
+                          >
+                            <p
+                              class="pages__title text-primary text-uppercase fw-bold mb-0"
+                            >
+                              Blog
+                            </p>
+                            <a
+                              class="pages__link mb-0 text-decoration-none text-dark"
+                            >
+                              Overview
+                            </a>
+
+                            <a
+                              class="pages__link mb-0 text-decoration-none text-dark"
+                            >
+                              Post
+                            </a>
+
+                            <a
+                              class="pages__link mb-0 text-decoration-none text-dark"
+                            >
+                              Archive
+                            </a>
+                          </div>
+
+                          <div
+                            class="pages__data d-flex flex-column fs-6 ps-3 fw-light mb-3"
+                          >
+                            <p
+                              class="pages__title text-primary text-uppercase fw-bold mb-0"
+                            >
+                              Portfolio
+                            </p>
+                            <a
+                              class="pages__link mb-0 text-decoration-none text-dark"
+                            >
+                              Grid
+                            </a>
+
+                            <a
+                              class="pages__link mb-0 text-decoration-none text-dark"
+                            >
+                              Large Grid
+                            </a>
+
+                            <a
+                              class="pages__link mb-0 text-decoration-none text-dark"
+                            >
+                              Masonry
+                            </a>
+
+                            <a
+                              class="pages__link mb-0 text-decoration-none text-dark"
+                            >
+                              Case Study
+                            </a>
+
+                            <a
+                              class="pages__link mb-0 text-decoration-none text-dark"
+                            >
+                              Project
+                            </a>
+                          </div>
+                        </div>
+                        <div class="col-4 d-flex flex-column">
+                          <div
+                            class="pages__data d-flex flex-column fs-6 ps-3 fw-light"
+                          >
+                            <p
+                              class="pages__title text-primary text-uppercase fw-bold mb-0"
+                            >
+                              Error
+                            </p>
+                            <a
+                              class="pages__link mb-0 text-decoration-none text-dark"
+                            >
+                              400 Error
+                            </a>
+
+                            <a
+                              class="pages__link mb-0 text-decoration-none text-dark"
+                            >
+                              401 Error
+                            </a>
+
+                            <a
+                              class="pages__link mb-0 text-decoration-none text-dark"
+                            >
+                              404 Error (Option 1)
+                            </a>
+
+                            <a
+                              class="pages__link mb-0 text-decoration-none text-dark"
+                            >
+                              404 Error (Option 2)
+                            </a>
+
+                            <a
+                              class="pages__link mb-0 text-decoration-none text-dark"
+                            >
+                              500 Error
+                            </a>
+
+                            <a
+                              class="pages__link mb-0 text-decoration-none text-dark"
+                            >
+                              503 Error
+                            </a>
+
+                            <a
+                              class="pages__link mb-0 text-decoration-none text-dark"
+                            >
+                              504 Error
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="documentation dropdown">
+                  <a
+                    class="btn btn-secondary nav-link dropdown-toggle bg-white text-secondary border-0"
+                    href="#"
+                    role="button"
+                    id="dropdownMenuDocs"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    Documentation
+                  </a>
+
+                  <ul class="dropdown-menu" aria-labelledby="dropdownMenuDocs">
+                    <li>
+                      <a
+                        class="dropdown-item d-flex justify-content-start align-items-center p-2"
+                        href="#"
+                      >
+                        <div
+                          class="documentation__ico rounded-circle bg-light p-2 mx-2 d-flex justify-content-center align-items-center"
+                        >
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="24"
+                            height="24"
+                            viewBox="0 0 24 24"
+                            fill="none"
+                            stroke="currentColor"
+                            stroke-width="2"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                            class="feather feather-book-open"
+                          >
+                            <path
+                              d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"
+                            ></path>
+                            <path
+                              d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"
+                            ></path>
+                          </svg>
+                        </div>
+                        <div class="documentation__data fs-6 ps-3 fw-light">
+                          <p class="documentation__title text-secondary mb-0">
+                            Documentation
+                          </p>
+                          <p class="documentation__desc mb-0">
+                            Usage instructions and reference
+                          </p>
+                        </div>
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        class="dropdown-item d-flex justify-content-start align-items-center p-2"
+                        href="#"
+                      >
+                        <div
+                          class="documentation__ico rounded-circle bg-light p-2 mx-2 d-flex justify-content-center align-items-center"
+                        >
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="24"
+                            height="24"
+                            viewBox="0 0 24 24"
+                            fill="none"
+                            stroke="currentColor"
+                            stroke-width="2"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                            class="feather feather-code"
+                          >
+                            <polyline points="16 18 22 12 16 6"></polyline>
+                            <polyline points="8 6 2 12 8 18"></polyline>
+                          </svg>
+                        </div>
+                        <div class="documentation__data fs-6 ps-3 fw-light">
+                          <p class="documentation__title text-secondary mb-0">
+                            Components
+                          </p>
+                          <p class="documentation__desc mb-0">
+                            Code snippets and reference
+                          </p>
+                        </div>
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        class="dropdown-item d-flex justify-content-start align-items-center p-2"
+                        href="#"
+                      >
+                        <div
+                          class="documentation__ico rounded-circle bg-light p-2 mx-2 d-flex justify-content-center align-items-center"
+                        >
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="24"
+                            height="24"
+                            viewBox="0 0 24 24"
+                            fill="none"
+                            stroke="currentColor"
+                            stroke-width="2"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                            class="feather feather-file-text"
+                          >
+                            <path
+                              d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"
+                            ></path>
+                            <polyline points="14 2 14 8 20 8"></polyline>
+                            <line x1="16" y1="13" x2="8" y2="13"></line>
+                            <line x1="16" y1="17" x2="8" y2="17"></line>
+                            <polyline points="10 9 9 9 8 9"></polyline>
+                          </svg>
+                        </div>
+                        <div class="documentation__data fs-6 ps-3 fw-light">
+                          <p class="documentation__title text-secondary mb-0">
+                            Changelog
+                          </p>
+                          <p class="documentation__desc mb-0">
+                            Updates and changes
+                          </p>
+                        </div>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </div>
+      <div
+        class="header__hero pt-5 mt-5 hero text-light d-flex flex-column justify-content-center align-items-center"
+      >
+        <h2 class="hero__title">Pricing</h2>
+        <p class="hero__desc">Our product, priced to fit your specific needs</p>
+      </div>
     </header>
     <main>
-      <section>
+      <section class="pricing py-5 my-3">
         <div class="container">
           <div class="row">
-            <div class="col"></div>
+            <div
+              class="col d-flex flex-column justify-content-center align-items-center"
+            >
+              <h3 class="pricing__title fs-5">Simple Pricing</h3>
+              <p class="pricing__desc text-secondary">
+                Easy pricing means no suprises.
+              </p>
+            </div>
           </div>
           <div class="row">
-            <div class="col-4"></div>
-            <div class="col-4"></div>
-            <div class="col-4"></div>
+            <div class="col-4">
+              <div
+                class="container-fluid py-4 d-flex flex-column justify-content-center align-items-center card rounded shadow"
+              >
+                <span class="badge bg-light text-dark fw-light rounded-pill"
+                  >Free</span
+                >
+
+                <p class="card__price fs-1">0</p>
+
+                <div class="card__list w-100">
+                  <ul class="fw-light">
+                    <li>1 user</li>
+                    <li>Community support</li>
+                    <li class="text-secondary">Style customizer</li>
+                    <li class="text-secondary">Custom components</li>
+                    <li class="text-secondary">Expanded utilities</li>
+                    <li class="text-secondary">Third-party integration</li>
+                    <li class="text-secondary">Layout options</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="col-4">
+              <div
+                class="container-fluid py-4 d-flex flex-column justify-content-center align-items-center card rounded shadow"
+              >
+                <span class="badge fw-light text-white bg-primary rounded-pill"
+                  >Standard</span
+                >
+
+                <p class="card__price fs-1">19</p>
+
+                <div class="card__list w-100">
+                  <ul class="fw-light">
+                    <li>1 user</li>
+                    <li>Community support</li>
+                    <li>Style customizer</li>
+                    <li>Custom components</li>
+                    <li>Expanded utilities</li>
+                    <li>Third-party integration</li>
+                    <li>Layout options</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="col-4">
+              <div
+                class="container-fluid py-4 d-flex flex-column justify-content-center align-items-center card rounded shadow"
+              >
+                <span class="badge fw-light text-dark bg-light rounded-pill"
+                  >Enterprise</span
+                >
+
+                <div class="card__data w-100 pt-4">
+                  <p class="card__desc">
+                    We offer discounts for larger organizations. Contact us to
+                    inquire about enterprise level plans!
+                  </p>
+                </div>
+              </div>
+            </div>
           </div>
           <div class="row"><div class="col"></div></div>
         </div>
       </section>
+
       <section>
         <div class="container">
           <div class="row"><div class="col"></div></div>
