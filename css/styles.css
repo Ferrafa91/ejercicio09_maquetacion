@@ -1,0 +1,25 @@
+footer {
+  padding-top: 4rem;
+  background-color: #212832;
+}
+#footer {
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 0.875rem;
+}
+#footer a {
+  color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
+}
+#footer ul {
+  list-style: none;
+}
+.icon-list-social .icon-list-social-link {
+  font-size: 1.25rem;
+  margin-right: 0.5rem;
+  color: rgba(255, 255, 255, 0.6);
+}
+.text-uppercase-expanded {
+  font-weight: 700;
+  letter-spacing: 0.125em;
+  text-transform: uppercase;
+}
